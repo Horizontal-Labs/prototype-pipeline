@@ -1,2 +1,4 @@
 /am-env
 /training/datasets
+*.log
+debug.log
