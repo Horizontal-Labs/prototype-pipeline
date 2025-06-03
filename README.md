@@ -26,7 +26,7 @@ A FastAPI-based service for analyzing argumentative structures in text using sta
 1. Clone the repository:
 ```bash
 git clone https://github.com/Horizontal-Labs/pipeline
-cd ArgumentMining
+cd pipeline
 ```
 
 2. Create and activate a virtual environment:
