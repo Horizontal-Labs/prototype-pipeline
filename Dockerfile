@@ -1,5 +1,5 @@
 # This file is machine generated.
-FROM python:3.9-slim
+FROM python:3.13-alpine
 
 WORKDIR /app
 
