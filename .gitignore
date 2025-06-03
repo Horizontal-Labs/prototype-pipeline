@@ -1,5 +1,14 @@
-/am-env
-/.venv
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
 /training/datasets
 *.log
 debug.log
