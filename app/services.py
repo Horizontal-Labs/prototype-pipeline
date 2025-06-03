@@ -52,12 +52,12 @@ class NLPService:
         try:
             tokenizer = BertTokenizer.from_pretrained(
                 "google-bert/bert-base-uncased",
-                use_auth_token=hf_token
+                token=hf_token
             )
             model = BertForSequenceClassification.from_pretrained(
                 "google-bert/bert-base-uncased",
                 num_labels=3,  # claim, premise, non-argument
-                use_auth_token=hf_token
+                token=hf_token
             )
             return tokenizer, model
         except Exception as e:
